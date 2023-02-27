@@ -1,0 +1,499 @@
+{
+  "data": [
+    {
+      "record": {
+        "@index": "1",
+        "record": {
+        },
+        "name": "Película",
+        "preguntas": {
+        },
+        "preg": "¿Quién es el famoso actor que viene a Comic Con PY?",
+        "resp": {
+        },
+        "rta": "Jeffrey Dean Morgan",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "2",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Andrew Lincoln",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "3",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Ross Marquand",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "4",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": "¿Cuántas temporadas tiene Games Of Thrones?",
+        "resp": {
+        },
+        "rta": "7",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "5",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "8",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "6",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "10",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "7",
+        "record": {
+        },
+        "name": "Personajes",
+        "preguntas": {
+        },
+        "preg": "¿A qué persona asesinan a los padres y busca venganza?",
+        "resp": {
+        },
+        "rta": "Capitán América",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "8",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Batman",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "9",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Flash",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "10",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": "¿Qué personaje utiliza flechas en los cómics de DC?",
+        "resp": {
+        },
+        "rta": "Flash",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "11",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "La Mujer Maravilla",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "12",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Arrow",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "13",
+        "record": {
+        },
+        "name": "COMIC",
+        "preguntas": {
+        },
+        "preg": "¿Cuál fue el primer personaje del comic?",
+        "resp": {
+        },
+        "rta": "Antorcha Humana",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "14",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Capitán América",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "15",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Iron Man",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "16",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": "¿Qué personajes creó Stan Lee?",
+        "resp": {
+        },
+        "rta": "Aquaman, Spider-Man",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "17",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Spider-Man, Daredevli",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "18",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Los 4 fantasticos, Batman",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "19",
+        "record": {
+        },
+        "name": "Ilustración",
+        "preguntas": {
+        },
+        "preg": "¿Cómo se llamaba el primer dibujo de comic?",
+        "resp": {
+        },
+        "rta": "BLU KID",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "20",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "WILD KID",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "21",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "YELLOW KID",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "22",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": "¿En qué año apareció la primera Ilustración?",
+        "resp": {
+        },
+        "rta": "1886",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "23",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "1895",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "24",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "1900",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "25",
+        "record": {
+        },
+        "name": "Cosplay",
+        "preguntas": {
+        },
+        "preg": "¿En qué pais se hace la conveción más grande del mundo?",
+        "resp": {
+        },
+        "rta": "Taiwan",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "26",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Singapur",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "27",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Tokio",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "28",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": "¿Quién es la mejor cosplay del mundo?",
+        "resp": {
+        },
+        "rta": "Ena Korin",
+        "correcta": "false"
+      }
+    },
+    {
+      "record": {
+        "@index": "29",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Jessica Nigri",
+        "correcta": "true"
+      }
+    },
+    {
+      "record": {
+        "@index": "30",
+        "record": {
+        },
+        "name": {
+        },
+        "preguntas": {
+        },
+        "preg": {
+        },
+        "resp": {
+        },
+        "rta": "Enji Night",
+        "correcta": "false"
+      }
+    }
+  ]
+}

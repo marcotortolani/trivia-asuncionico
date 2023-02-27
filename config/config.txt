@@ -1,0 +1,48 @@
+{"trivia":
+    { 
+      "answersAllowedPerDay": 400,
+      "categoriesWheel": 4,
+      "catInfo":[
+      {
+         "name":"Ediciones Anteriores",
+         "img": "/img/ediciones_anteriores_cat.png"
+      },
+      
+      {
+         "name":"Billie Eilish",
+         "img": "/img/billie-eilish.png"
+      },
+      
+      {
+         "name":"Rosalía",
+         "img": "/img/rosalia_cat.png"
+      },
+      
+      {
+         "name":"Blink 182",
+         "img": "/img/blink182.png"
+      },
+      
+      {
+         "name":"",
+         "img": "/img/"
+      },
+      
+      {
+         "name":"",
+         "img": "/img/"
+      },
+      
+      {
+         "name":"",
+         "img": "/img/"
+      },
+      
+      {
+         "name":"",
+         "img": "/img/"
+      }
+      ]
+     
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "categories":[
+        {
+            "name": "Ediciones Anteriores",
+            "preguntas":[
+                {
+                    "preg": "¿Cuál de estas bandas formó parte de la primera edición de Lollapalooza Argentina?",
+                    "resp": [
+                        {
+                            "rta": "LED ZEPPELIN led zeppellin led zepellin",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "METRONOMY",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "ARCADE FIRE",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En qué año se realizó por primera vez el Asuncionico?",
+                    "resp": [
+                        {
+                            "rta": "2013",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "2015 2015 2015 2015 2015 2015 2015 2015",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "2014",
+                            "correcta": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Billie Eilish",
+            "preguntas":[
+                {
+                    "preg": "¿Cuál es el nombre completo de Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "Billie Eilish O'Connell Billie Eilish O'Connell Billie Eilish O'Connell",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Billie Eilish Bird O'Connell",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Billie Eilish Pirate Baird O'Connell",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En qué fecha nació Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "08/12/2001",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "18/02/2001 18/02/2001 18/02/2001 18/02/2001 18/02/2001",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "01/08/2000",
+                            "correcta": false
+                        }
+                    ]
+                }               
+            ]
+        },
+        {
+            "name": "Rosalia",
+            "preguntas" : [
+                {
+                    "preg": "¿Cuál fué el 'Talent Show' en el que participó Rosalía con 15 años?",
+                    "resp": [
+                        {
+                            "rta": "Operación Triunfo",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Got Talent España Got Talent España Got Talent España Got Talent España",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Tú sí que vales",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuántos álbumes tiene Rosalía?",
+                    "resp": [
+                        {
+                            "rta": "2",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 ",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "4",
+                            "correcta": false
+                        }
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "name" : "BLINK",
+            "preguntas" : [
+                {
+                    "preg": "¿Quién es el miembro más viejo de Blink 182?",
+                    "resp": [
+                        {
+                            "rta": "Scott Raynor",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Travis Barker Travis Barker Travis Barker",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Mark Hoppus",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuáles de los miembros de Blink 182 estuvieron en la banda Boxcar Racer?",
+                    "resp": [
+                        {
+                            "rta": "Tom y Scott",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Tom y Travis Tom y Travis Tom y Travis Tom y Travis",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Scott y Mark",
+                            "correcta": false
+                        }
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}

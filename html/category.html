@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../sass/app.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <title>Trivia App</title>
+</head>
+<body class="category">
+
+    <audio hidden id="button-sfx" src="../sound/button_sound.mp3"></audio>
+    <audio hidden id="wrong-answer-sfx" src="../sound/wrong_answer.mp3"></audio>
+    <audio hidden id="correct-answer-sfx" src="../sound/correct_answer.mp3"></audio>
+    <audio hidden id="confetti-sfx" src="../sound/confetti_sound.mp3"></audio>
+
+    <div class="logo-img">
+		<a href="../index.html">
+            <img src="../img/logo-header-app.png" alt="">
+		</a>
+	</div>
+
+    <div class="category-chosen">
+        <div class="title">
+            <h2>Categoría</h2>
+            <h3 class="category-name">--</h3>
+            <!-- <h4 class="hide" id="advise-cat-full">Categoría Completada</h4> -->
+        </div>
+
+        <div class="category-image" id="cat-image">
+            <img src="" alt="">
+            <!-- <img class="hide" src="../img/cat_juegos.png" alt="" id="cat01">
+            <img class="hide" src="../img/cat_tecno.png" alt="" id="cat02">
+            <img class="hide" src="../img/cat_torneo.png" alt="" id="cat03">
+            <img class="hide" src="../img/cat_trucos.png" alt="" id="cat04">
+            <img class="hide" src="../img/cat_personajes.png" alt="" id="cat05">
+            <img class="hide" src="../img/cat_mundo.png" alt="" id="cat06"> -->
+        </div>
+        <button class="button-begin">Comenzar</button>
+    </div>
+
+    <div class="cards-questions ">
+        <div class="title-question ">
+            <h3 id="question"></h3>
+        </div>
+        
+        <div class="cards-answers " id="answers">
+            <label class="" for="answer-01">
+                <h4 class="">Opcion 1</h4>
+                <input type="checkbox" name="" id="answer-01" data-value="">
+                <div class="answer-correct hide ">
+                    <h5>Correcta! +1000 Puntos</h5>
+                    <img src="../img/respuesta_ok.png" alt="">
+                </div>
+                <div class="answer-wrong hide">
+                    <h5>Incorrecta! +500 Puntos</h5>
+                    <img src="../img/respuesta_wrong.png" alt="">
+                </div>
+            </label>
+
+            <label class="" for="answer-02">
+                <h4>Opcion 2</h4>
+                <input type="checkbox" name="" id="answer-02" data-value="">
+                <div class="answer-correct hide">
+                    <h5>Correcta! +1000 Puntos</h5>
+                    <img src="../img/respuesta_ok.png" alt="">
+                </div>
+                <div class="answer-wrong hide">
+                    <h5>Incorrecta! +500 Puntos</h5>
+                    <img src="../img/respuesta_wrong.png" alt="">
+                </div>
+            </label>
+
+            <label class="" for="answer-03">
+                <h4>Opcion 3</h4>
+                <input type="checkbox" name="" id="answer-03" data-value="">
+                <div class="answer-correct hide">
+                    <h5>Correcta! +1000 Puntos</h5>
+                    <img src="../img/respuesta_ok.png" alt="">
+                </div>
+                <div class="answer-wrong hide">
+                    <h5>Incorrecta! +500 Puntos</h5>
+                    <img src="../img/respuesta_wrong.png" alt="">
+                </div>
+            </label>
+        </div>
+
+    </div>
+
+    <div class="pop-up-congrats hide">
+        <div class="silver-congrats" >
+            <img class="stars-top" src="../img/estrellas-plateadas.png" alt="Silver Stars">
+            <h3 class="silver-title" data-silver="¡FELICIDADES COMPLETASTE LA CATEGORÍA!">¡FELICIDADES COMPLETASTE LA CATEGORÍA!</h3>
+            <img class="stars-bottom" src="../img/estrellas-plateadas.png" alt="Silver Stars">   
+        </div>
+        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_qgclz5o0.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>    
+    </div>
+
+    <div class="answers-animation">
+        <div class="answer-animation-correct hide" style="width: 300px; height: 150px;">
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_Jb8zgGUjL4.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        </div>
+        <div class="answer-animation-wrong hide" style="width: 300px; height: 150px;">
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_usBwKS0WmV.json"  background="transparent"  speed="2"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        </div>
+    </div>
+
+    <footer class="footer show-questions">
+        <a class="back-arrow" href="../index.html">
+            <img src="../img/arrow_back.png" alt="">
+            <h5 class="cat-change">Cambiar Categoría</h5>
+        </a>
+
+        <div class="points ">
+			<h5 id="score-displayed">---</h5>
+			<img src="../img/footer_fondo_puntos.png" alt="">
+		</div>
+
+        <h5 class="questions"><span id="questions-answered">1</span> / <span id="questions-total">-</span></h5>
+    </footer>
+
+    <script src="../js/script.js"></script>
+        
+    <!-- <script type="text/javascript">
+        const wrongAnswerSFX = new Audio();
+        wrongAnswerSFX.src = "../sfx/mp3/wrong_answer_3.mp3";
+
+        const correctAnswerSFX = new Audio();
+        correctAnswerSFX.src = "../sfx/mp3/correct_answer_3.mp3";
+    </script> -->
+
+    
+</body>
+</html>

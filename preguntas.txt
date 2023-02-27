@@ -1,0 +1,706 @@
+{
+    "categories":[
+        {
+            "name": "Ediciones Anteriores",
+            "preguntas":[
+                {
+                    "preg": "¿Cuál de estas bandas formó parte de la primera edición de Lollapalooza Argentina?",
+                    "resp": [
+                        {
+                            "rta": "LED ZEPPELIN",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "METRONOMY",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "ARCADE FIRE",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En qué año se realizó por primera vez el Asuncionico?",
+                    "resp": [
+                        {
+                            "rta": "2013",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "2015",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "2014",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuántos asistentes tuvo el primer Asuncionico?",
+                    "resp": [
+                        {
+                            "rta": "25000",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "30000",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "450000",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuál fue el primer país Sudamericano en tener un show musical internacional?",
+                    "resp": [
+                        {
+                            "rta": "Brasil",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Chile",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Uruguay",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Dónde se celebra el Asuncionico?",
+                    "resp": [
+                        {
+                            "rta": "Parque de la República",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Parque de la Ciudad",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Parque Olímpico",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Qué banda cerró el último Asuncionico 2019?",
+                    "resp": [
+                        {
+                            "rta": "The Killers",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Gorillaz",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Foo Fighters",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuál de estos artistas nunca participó del Asuncionico?",
+                    "resp": [
+                        {
+                            "rta": "SMASHING PUMPKING",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "GUNS AND ROSES",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "RADIOHEAD",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuántos dias dura el Asuncionico?",
+                    "resp": [
+                        {
+                            "rta": "4",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "2",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "5",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuántas bandas se van a presentar?",
+                    "resp": [
+                        {
+                            "rta": "50",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "35",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "37",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En qué mes es el Asuncionico?",
+                    "resp": [
+                        {
+                            "rta": "Abril",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Marzo",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Diciembre",
+                            "correcta": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Billie Eilish",
+            "preguntas":[
+                {
+                    "preg": "¿Cuál es el nombre completo de Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "Billie Eilish O'Connell",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Billie Eilish Bird O'Connell",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Billie Eilish Pirate Baird O'Connell",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En qué fecha nació Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "08/12/2001",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "18/02/2001",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "01/08/2000",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cómo se llama el hermano de Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "Finneas Baird O'Connell",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Finneas O' Connell",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Finneas Patrick O' Connell",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuál es la primera canción que lanzó Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "Bored",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Ocean Eyes",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Copycat",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Dónde nació Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "San Francisco",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Sacramento",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Los Angeles",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuál fué su primer disco?",
+                    "resp": [
+                        {
+                            "rta": "Happier Than Ever",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "When We All Fall Asleep, Where Do We Go?",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Where Do We Go",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Con quién de los siguientes cantantes colaboró Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "Miley Cyrus",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Hayley Williams",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Khalid",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Qué enfermedad padece Billie Eilish?",
+                    "resp": [
+                        {
+                            "rta": "Dislexia",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Tourette",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Bipolaridad",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cómo le dice Billie Eilish a sus fans?",
+                    "resp": [
+                        {
+                            "rta": "Billeishers",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Avocados",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Eyelashes",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cómo se llama la canción que realizó Billie Eilish para James Bond?",
+                    "resp": [
+                        {
+                            "rta": "Skyfall",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "No Time to Die",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Another way to die",
+                            "correcta": false
+                        }
+                    ]
+                }                
+            ]
+        },
+        {
+            "name": "Rosalia",
+            "preguntas" : [
+                {
+                    "preg": "¿Cuál fué el 'Talent Show' en el que participó Rosalía con 15 años?",
+                    "resp": [
+                        {
+                            "rta": "Operación Triunfo",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Got Talent España",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Tú sí que vales",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuántos álbumes tiene Rosalía?",
+                    "resp": [
+                        {
+                            "rta": "2",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "3",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "4",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Qué significa 'TKN', la expresión que da título a la canción de Rosalía con Travis Scott?",
+                    "resp": [
+                        {
+                            "rta": "Tekken",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Tu quiero nene",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Tu quien eres",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿A qué edad comenzó Rosalía su formación musical?",
+                    "resp": [
+                        {
+                            "rta": "15 años",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "10 años",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "12 años",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Qué signo del zodíaco es Rosalía?",
+                    "resp": [
+                        {
+                            "rta": "Aries",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Piscis",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Libra",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Con qué canción ganó Rosalía dos veces los MTV VMA?",
+                    "resp": [
+                        {
+                            "rta": "Di mi nombre",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Con altura",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Malamente",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Qué libro inspiró a Rosalía para componer 'El Mal querer'?",
+                    "resp": [
+                        {
+                            "rta": "Mujercitas",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "La mujer gitana",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Flamenca",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Con quién colaboró Rosalía en la canción 'Antes de morirme'?",
+                    "resp": [
+                        {
+                            "rta": "Ozuna",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "C tangana",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "J Bavin",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuál es la comida favorita de Rosalía?",
+                    "resp": [
+                        {
+                            "rta": "Pizza",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Paella",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Sushi",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En cuál de estas películas sale Rosalía?",
+                    "resp": [
+                        {
+                            "rta": "Julieta",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Dolor y Gloria",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Madres paralelas",
+                            "correcta": false
+                        }
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "name" : "BLINK",
+            "preguntas" : [
+                {
+                    "preg": "¿Quién es el miembro más viejo de Blink 182?",
+                    "resp": [
+                        {
+                            "rta": "Scott Raynor",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Travis Barker",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Mark Hoppus",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuáles de los miembros de Blink 182 estuvieron en la banda Boxcar Racer?",
+                    "resp": [
+                        {
+                            "rta": "Tom y Scott",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Tom y Travis",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Scott y Mark",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Qué miembro de Blink 182 apareció en la película 'Idle Hands'?",
+                    "resp": [
+                        {
+                            "rta": "Tom DeLonge",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Scott Raynor",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Mark Hoppus",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cuál era el nombre original de la canción 'What's My Age Again?' de Blink 182?",
+                    "resp": [
+                        {
+                            "rta": "Oblivion",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Peter Pan Complex",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Labrinth",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "Travis Baker de Blink 182 tuvo un show en Mtv, ¿cómo se llamaba?",
+                    "resp": [
+                        {
+                            "rta": "The Life of Travis",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Don't Blink!",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Meet the Barkers",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Cómo se llama el primer álbum de Blink 182?",
+                    "resp": [
+                        {
+                            "rta": "Enema of the State",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Cheshire Cat",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Dude Ranch",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En qué año se separó Blink 182 por primera vez?",
+                    "resp": [
+                        {
+                            "rta": "2003",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "2009",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "2005 ",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En qué estado de California se creó Blink 182?",
+                    "resp": [
+                        {
+                            "rta": "Monterey",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Poway",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "San Bernardino",
+                            "correcta": false
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿Quién de los miembros de Blink 182 cree fuertemente en los aliens?",
+                    "resp": [
+                        {
+                            "rta": "Scott Raynor",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Travis Barker",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Tom DeLonge",
+                            "correcta": true
+                        }
+                    ]
+                },
+                {
+                    "preg": "¿En quién está basada la canción 'Josie' de Blink 1982?",
+                    "resp": [
+                        {
+                            "rta": "La madre de Scott",
+                            "correcta": false
+                        },
+                        {
+                            "rta": "Un perro",
+                            "correcta": true
+                        },
+                        {
+                            "rta": "Una ex novia de Mark",
+                            "correcta": false
+                        }
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}
