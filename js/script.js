@@ -17,6 +17,7 @@ let score;
 let date = new Date();
 let currentDate = date.getDate();
 
+
 let answersByCategory = {
 	1 : [],
 	2 : [],
@@ -52,17 +53,20 @@ let answersLimited = {
 
 let soundControl = {
   allowSound : false,
-  volumeSound : 0.5,
+  volumeSound : 0.5
 }
 
-// const wrongAnswerSFX = new Audio();
-// wrongAnswerSFX.src = "../sfx/mp3/wrong_answer_3.mp3";
-// const correctAnswerSFX = new Audio();
-// correctAnswerSFX.src = "../sfx/mp3/correct_answer_3.mp3";
+
+function encryptingData(data){
+  return window.btoa(data);
+}
+
+function desencryptingData(data){
+  return window.atob(data);
+}
 
 
-// let wrongAnswerSFX = new Audio("../sfx/mp3/wrong_answer_3.mp3");
-// let correctAnswerSFX = new Audio("../sfx/mp3/correct_answer_3.mp3");
+
 
 
 //!   INDEX = SPINER WHEEL
@@ -73,48 +77,49 @@ if (body.className === "spiner-wheel") {
 
 
   URLSite = window.location.href.replace("/index.html", "");
-  localStorage.setItem("URLSite", JSON.stringify(URLSite));
-
-
+  localStorage.setItem("a1a2a3", encryptingData(JSON.stringify(URLSite)));
+  
+  URLSite = JSON.parse(desencryptingData(localStorage.getItem("a1a2a3")));
+  
   // score counter
-	if(!JSON.parse(localStorage.getItem("scoreStored"))){
+	if(!localStorage.getItem("b1b2b3")){
       score = 0;
-      localStorage.setItem("scoreStored", score);
+      localStorage.setItem("b1b2b3", encryptingData(JSON.stringify(score)));
   }else{
-      score = JSON.parse(localStorage.getItem("scoreStored"));
+      score = JSON.parse(desencryptingData(localStorage.getItem("b1b2b3")));
   }
+  
 
   // Get Data from LocalStorage - Answers by Category
-  if(!JSON.parse(localStorage.getItem("answersByCategoryStored"))){
-    localStorage.setItem("answersByCategoryStored", JSON.stringify(answersByCategory));
+  if(!localStorage.getItem("c1c2c3")){
+    localStorage.setItem("c1c2c3", encryptingData(JSON.stringify(answersByCategory)));
   }else{
-    answersByCategory = JSON.parse(localStorage.getItem("answersByCategoryStored"));
+    answersByCategory = JSON.parse(desencryptingData(localStorage.getItem("c1c2c3")));
   }
 
 
   // Array with categories that were made completed
-  if(!JSON.parse(localStorage.getItem("categoriesCompleted"))){
-    localStorage.setItem("categoriesCompleted", JSON.stringify(categoriesCompleted));
+  if(!localStorage.getItem("d1d2d3")){
+    localStorage.setItem("d1d2d3", encryptingData(JSON.stringify(categoriesCompleted)));
   }else{
-    categoriesCompleted = JSON.parse(localStorage.getItem("categoriesCompleted"));
+    categoriesCompleted = JSON.parse(desencryptingData(localStorage.getItem("d1d2d3")));
   }
-
-
+  
+  
   // Volume control config by user
-  if(!JSON.parse(localStorage.getItem("soundControl"))){
-    localStorage.setItem("soundControl", JSON.stringify(soundControl));
+  if(!localStorage.getItem("e1e2e3")){
+    localStorage.setItem("e1e2e3", encryptingData(JSON.stringify(soundControl)));
   }else{
-    soundControl = JSON.parse(localStorage.getItem("soundControl"));
+    soundControl = JSON.parse(desencryptingData(localStorage.getItem("e1e2e3")));
   }
-
+  
 
   // Answers Allowed Per Day
-  if(!JSON.parse(localStorage.getItem("answersLimited"))){
-    localStorage.setItem("answersLimited", JSON.stringify(answersLimited));
+  if(!localStorage.getItem("f1f2f3")){
+    localStorage.setItem("f1f2f3", encryptingData(JSON.stringify(answersLimited)));
   }else{
-    answersLimited = JSON.parse(localStorage.getItem("answersLimited"));
+    answersLimited = JSON.parse(desencryptingData(localStorage.getItem("f1f2f3")));
   }
-
   // ----------------------------------------------
 
 
@@ -195,7 +200,7 @@ if (body.className === "spiner-wheel") {
     //   volumeControl.parentElement.children[2].classList.add("hide");
     // }
     
-    localStorage.setItem("soundControl", JSON.stringify(soundControl));
+    localStorage.setItem("e1e2e3", encryptingData(JSON.stringify(soundControl)));
 
   }
 
@@ -220,7 +225,7 @@ if (body.className === "spiner-wheel") {
 
     // Reading quantity of Answers Allowed Per Day
     answersLimited.answersAllowedPerDay = infoCategories.trivia.answersAllowedPerDay;
-    localStorage.setItem("answersLimited", JSON.stringify(answersLimited));
+    localStorage.setItem("f1f2f3", encryptingData(JSON.stringify(answersLimited)));
     if(answersLimited.dateAnswered.length >= answersLimited.answersAllowedPerDay){
       //console.log("llegaste a tu limite diario");
       popUpLimitAnswers.classList.remove("hide");
@@ -235,7 +240,7 @@ if (body.className === "spiner-wheel") {
 
 
 
-    console.log(URLSite);
+    //console.log(URLSite);
     try {
         requestJson = await fetch(URLSite + "/preguntas.txt");
         questions = await requestJson.json();
@@ -266,7 +271,7 @@ if (body.className === "spiner-wheel") {
           
           // put this field on true when the category is completed
           categoriesCompleted[i+1] = true;
-          localStorage.setItem("categoriesCompleted", JSON.stringify(categoriesCompleted));
+          localStorage.setItem("d1d2d3", encryptingData(JSON.stringify(categoriesCompleted)));
           
         }
       }
@@ -455,29 +460,29 @@ if (body.className === "category") {
   let paramaters = (new URL(url)).searchParams;
   let catSelect = parseInt(paramaters.get("cat"));
 
-  URLSite = JSON.parse(localStorage.getItem("URLSite"));
+  URLSite = JSON.parse(desencryptingData(localStorage.getItem("a1a2a3")));
 
   //--------------------
 
   // Get Data from LocalStorage - Answers by Category
-  if(!JSON.parse(localStorage.getItem("answersByCategoryStored"))){
-    localStorage.setItem("answersByCategoryStored", JSON.stringify(answersByCategory));
+  if(!localStorage.getItem("c1c2c3")){
+    localStorage.setItem("c1c2c3", encryptingData(JSON.stringify(answersByCategory)));
   }else{
-    answersByCategory = JSON.parse(localStorage.getItem("answersByCategoryStored"));
+    answersByCategory = JSON.parse(desencryptingData(localStorage.getItem("c1c2c3")));
   }
 
   // Volume control config by user
-  if(!JSON.parse(localStorage.getItem("soundControl"))){
-    localStorage.setItem("soundControl", JSON.stringify(soundControl));
-  }else{
-    soundControl = JSON.parse(localStorage.getItem("soundControl"));
-  }
+  // if(!JSON.parse(localStorage.getItem("e1e2e3"))){
+  //   localStorage.setItem("e1e2e3", encryptingData(JSON.stringify(soundControl)));
+  // }else{
+  //   soundControl = JSON.parse(localStorage.getItem("e1e2e3"));
+  // }
 
   // Answers Allowed Per Day
-  if(!JSON.parse(localStorage.getItem("answersLimited"))){
-    localStorage.setItem("answersLimited", JSON.stringify(answersLimited));
+  if(!localStorage.getItem("f1f2f3")){
+    localStorage.setItem("f1f2f3", encryptingData(JSON.stringify(answersLimited)));
   }else{
-    answersLimited = JSON.parse(localStorage.getItem("answersLimited"));
+    answersLimited = JSON.parse(desencryptingData(localStorage.getItem("f1f2f3")));
   }
   // --------------------------------------------
   
@@ -509,14 +514,14 @@ if (body.className === "category") {
   wrongSFX.preload;
   correctSFX.preload;
   confettiSFX.preload;
-  buttonSFX.volume = soundControl.volumeSound;
-  wrongSFX.volume = soundControl.volumeSound;
-  correctSFX.volume = soundControl.volumeSound;
-  confettiSFX.volume = soundControl.volumeSound;
+  //buttonSFX.volume = soundControl.volumeSound;
+  //wrongSFX.volume = soundControl.volumeSound;
+  //correctSFX.volume = soundControl.volumeSound;
+  //confettiSFX.volume = soundControl.volumeSound;
 
 
   const scoreDisplayed = document.getElementById("score-displayed");
-  score = JSON.parse(localStorage.getItem("scoreStored"));
+  score = JSON.parse(desencryptingData(localStorage.getItem("b1b2b3")));
   scoreDisplayed.innerHTML = score;
 
 
@@ -543,7 +548,7 @@ if (body.className === "category") {
 
     // Reading quantity of Answers Allowed Per Day
     answersLimited.answersAllowedPerDay = infoCategories.trivia.answersAllowedPerDay;
-    localStorage.setItem("answersLimited", JSON.stringify(answersLimited));
+    localStorage.setItem("f1f2f3", encryptingData(JSON.stringify(answersLimited)));
     if(answersLimited.dateAnswered.length >= answersLimited.answersAllowedPerDay){
       //console.log("llegaste a tu limite diario");
       window.location.href = URLSite + "/index.html";
@@ -732,7 +737,7 @@ if (body.className === "category") {
 
     
     answersLimited.dateAnswered.push(date.getDate());
-    localStorage.setItem("answersLimited", JSON.stringify(answersLimited));
+    localStorage.setItem("f1f2f3", encryptingData(JSON.stringify(answersLimited)));
 
 
   	if(e.target.dataset.value === "true"){
@@ -782,7 +787,7 @@ if (body.className === "category") {
 	
 
   	answersByCategory[catSelect].push(random);
-  	localStorage.setItem("answersByCategoryStored", JSON.stringify(answersByCategory));
+  	localStorage.setItem("c1c2c3", encryptingData(JSON.stringify(answersByCategory)));
 
   	if(answersByCategory[catSelect].length<10){
   		questionsAnswered.innerHTML = "0" + answersByCategory[catSelect].length;
@@ -792,7 +797,7 @@ if (body.className === "category") {
 
 
   	scoreDisplayed.innerHTML = score;
-  	localStorage.setItem("scoreStored", score);
+  	localStorage.setItem("b1b2b3", encryptingData(JSON.stringify(score)));
 
     // setTimeout(() => {
     //   cardsQuestions.classList.remove("show-side-left");
