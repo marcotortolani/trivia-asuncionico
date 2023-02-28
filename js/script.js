@@ -61,7 +61,7 @@ function encryptingData(data){
   return window.btoa(data);
 }
 
-function desencryptingData(data){
+function decryptingData(data){
   return window.atob(data);
 }
 
@@ -79,14 +79,14 @@ if (body.className === "spiner-wheel") {
   URLSite = window.location.href.replace("/index.html", "");
   localStorage.setItem("a1a2a3", encryptingData(JSON.stringify(URLSite)));
   
-  URLSite = JSON.parse(desencryptingData(localStorage.getItem("a1a2a3")));
+  URLSite = JSON.parse(decryptingData(localStorage.getItem("a1a2a3")));
   
   // score counter
 	if(!localStorage.getItem("b1b2b3")){
       score = 0;
       localStorage.setItem("b1b2b3", encryptingData(JSON.stringify(score)));
   }else{
-      score = JSON.parse(desencryptingData(localStorage.getItem("b1b2b3")));
+      score = JSON.parse(decryptingData(localStorage.getItem("b1b2b3")));
   }
   
 
@@ -94,7 +94,7 @@ if (body.className === "spiner-wheel") {
   if(!localStorage.getItem("c1c2c3")){
     localStorage.setItem("c1c2c3", encryptingData(JSON.stringify(answersByCategory)));
   }else{
-    answersByCategory = JSON.parse(desencryptingData(localStorage.getItem("c1c2c3")));
+    answersByCategory = JSON.parse(decryptingData(localStorage.getItem("c1c2c3")));
   }
 
 
@@ -102,7 +102,7 @@ if (body.className === "spiner-wheel") {
   if(!localStorage.getItem("d1d2d3")){
     localStorage.setItem("d1d2d3", encryptingData(JSON.stringify(categoriesCompleted)));
   }else{
-    categoriesCompleted = JSON.parse(desencryptingData(localStorage.getItem("d1d2d3")));
+    categoriesCompleted = JSON.parse(decryptingData(localStorage.getItem("d1d2d3")));
   }
   
   
@@ -110,7 +110,7 @@ if (body.className === "spiner-wheel") {
   if(!localStorage.getItem("e1e2e3")){
     localStorage.setItem("e1e2e3", encryptingData(JSON.stringify(soundControl)));
   }else{
-    soundControl = JSON.parse(desencryptingData(localStorage.getItem("e1e2e3")));
+    soundControl = JSON.parse(decryptingData(localStorage.getItem("e1e2e3")));
   }
   
 
@@ -118,7 +118,7 @@ if (body.className === "spiner-wheel") {
   if(!localStorage.getItem("f1f2f3")){
     localStorage.setItem("f1f2f3", encryptingData(JSON.stringify(answersLimited)));
   }else{
-    answersLimited = JSON.parse(desencryptingData(localStorage.getItem("f1f2f3")));
+    answersLimited = JSON.parse(decryptingData(localStorage.getItem("f1f2f3")));
   }
   // ----------------------------------------------
 
@@ -460,7 +460,7 @@ if (body.className === "category") {
   let paramaters = (new URL(url)).searchParams;
   let catSelect = parseInt(paramaters.get("cat"));
 
-  URLSite = JSON.parse(desencryptingData(localStorage.getItem("a1a2a3")));
+  URLSite = JSON.parse(decryptingData(localStorage.getItem("a1a2a3")));
 
   //--------------------
 
@@ -468,21 +468,21 @@ if (body.className === "category") {
   if(!localStorage.getItem("c1c2c3")){
     localStorage.setItem("c1c2c3", encryptingData(JSON.stringify(answersByCategory)));
   }else{
-    answersByCategory = JSON.parse(desencryptingData(localStorage.getItem("c1c2c3")));
+    answersByCategory = JSON.parse(decryptingData(localStorage.getItem("c1c2c3")));
   }
 
   // Volume control config by user
   if(!localStorage.getItem("e1e2e3")){
     localStorage.setItem("e1e2e3", encryptingData(JSON.stringify(soundControl)));
   }else{
-    soundControl = JSON.parse(desencryptingData(localStorage.getItem("e1e2e3")));
+    soundControl = JSON.parse(decryptingData(localStorage.getItem("e1e2e3")));
   }
 
   // Answers Allowed Per Day
   if(!localStorage.getItem("f1f2f3")){
     localStorage.setItem("f1f2f3", encryptingData(JSON.stringify(answersLimited)));
   }else{
-    answersLimited = JSON.parse(desencryptingData(localStorage.getItem("f1f2f3")));
+    answersLimited = JSON.parse(decryptingData(localStorage.getItem("f1f2f3")));
   }
   // --------------------------------------------
   
@@ -521,7 +521,7 @@ if (body.className === "category") {
 
 
   const scoreDisplayed = document.getElementById("score-displayed");
-  score = JSON.parse(desencryptingData(localStorage.getItem("b1b2b3")));
+  score = JSON.parse(decryptingData(localStorage.getItem("b1b2b3")));
   scoreDisplayed.innerHTML = score;
 
 
