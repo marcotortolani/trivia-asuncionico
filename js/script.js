@@ -145,8 +145,8 @@ if (body.className === "spiner-wheel") {
 
   rouletteSFX.preload;
   fireworksSFX.preload;
-  //rouletteSFX.volume = soundControl.volumeSound;
-  //fireworksSFX.volume = soundControl.volumeSound;
+  rouletteSFX.volume = soundControl.volumeSound;
+  fireworksSFX.volume = soundControl.volumeSound;
 
 	var degree = 1800;
 	var clicks = 0;
@@ -179,8 +179,8 @@ if (body.className === "spiner-wheel") {
     //     soundControlSetting("render");
     //   }  
     // }
-    //rouletteSFX.volume = soundControl.volumeSound;
-    //fireworksSFX.volume = soundControl.volumeSound;
+    rouletteSFX.volume = soundControl.volumeSound;
+    fireworksSFX.volume = soundControl.volumeSound;
 
     
     if(muteControl.checked ){
@@ -472,11 +472,11 @@ if (body.className === "category") {
   }
 
   // Volume control config by user
-  // if(!JSON.parse(localStorage.getItem("e1e2e3"))){
-  //   localStorage.setItem("e1e2e3", encryptingData(JSON.stringify(soundControl)));
-  // }else{
-  //   soundControl = JSON.parse(localStorage.getItem("e1e2e3"));
-  // }
+  if(!localStorage.getItem("e1e2e3")){
+    localStorage.setItem("e1e2e3", encryptingData(JSON.stringify(soundControl)));
+  }else{
+    soundControl = JSON.parse(desencryptingData(localStorage.getItem("e1e2e3")));
+  }
 
   // Answers Allowed Per Day
   if(!localStorage.getItem("f1f2f3")){
@@ -514,10 +514,10 @@ if (body.className === "category") {
   wrongSFX.preload;
   correctSFX.preload;
   confettiSFX.preload;
-  //buttonSFX.volume = soundControl.volumeSound;
-  //wrongSFX.volume = soundControl.volumeSound;
-  //correctSFX.volume = soundControl.volumeSound;
-  //confettiSFX.volume = soundControl.volumeSound;
+  buttonSFX.volume = soundControl.volumeSound;
+  wrongSFX.volume = soundControl.volumeSound;
+  correctSFX.volume = soundControl.volumeSound;
+  confettiSFX.volume = soundControl.volumeSound;
 
 
   const scoreDisplayed = document.getElementById("score-displayed");
