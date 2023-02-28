@@ -75,6 +75,7 @@ if (body.className === "spiner-wheel") {
   URLSite = window.location.href.replace("/index.html", "");
   localStorage.setItem("URLSite", JSON.stringify(URLSite));
 
+
   // score counter
 	if(!JSON.parse(localStorage.getItem("scoreStored"))){
       score = 0;
@@ -453,6 +454,8 @@ if (body.className === "category") {
   let url = window.location;
   let paramaters = (new URL(url)).searchParams;
   let catSelect = parseInt(paramaters.get("cat"));
+
+  URLSite = JSON.parse(localStorage.getItem("URLSite"));
 
   //--------------------
 
